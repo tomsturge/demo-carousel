@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/tomsturge/w3w-test.svg?token=qvb4H4fNJuvurbGu8JSD&branch=master)](https://travis-ci.com/tomsturge/w3w-test)
+
 # Preparation
 
 Install:
