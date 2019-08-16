@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should display the content 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div>
+      Gallery component
+    </div>
+    <div>
+      Gallery component
+    </div>
+    <div>
+      Gallery component
+    </div>
+  </div>
+</DocumentFragment>
+`;
