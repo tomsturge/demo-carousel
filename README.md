@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/tomsturge/w3w-test.svg?token=qvb4H4fNJuvurbGu8JSD&branch=master)](https://travis-ci.com/tomsturge/w3w-test)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bac43b3c-7b1f-4e9d-affd-c7064234ecb3/deploy-status)](https://app.netlify.com/sites/w3w-test/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bac43b3c-7b1f-4e9d-affd-c7064234ecb3/deploy-status)](https://w3w-test.netlify.com)
 
 # Preparation
 
