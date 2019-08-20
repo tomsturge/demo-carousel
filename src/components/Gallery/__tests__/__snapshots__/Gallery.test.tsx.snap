@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery should display the content 1`] = `
+<DocumentFragment>
+  <div
+    class="carousel"
+  >
+    <div
+      class="carousel__track animate"
+      style="left: -100%;"
+    >
+      <img
+        alt="Macro of dandelion seeds covered in morning dew "
+        src="10.jpg"
+      />
+      <img
+        alt="Macro of dandelion seeds covered in morning dew "
+        src="01.jpg"
+      />
+      <img
+        alt="Ground level shot of a misty forest looking up at the milky yellow sky"
+        src="02.jpg"
+      />
+      <img
+        alt="Macro of dandelion seeds covered in morning dew "
+        src="03.jpg"
+      />
+      <img
+        alt="Macro of dandelion seeds covered in morning dew "
+        src="04.jpg"
+      />
+      <img
+        alt="Macro of dandelion seeds covered in morning dew "
+        src="05.jpg"
+      />
+      <img
+        alt="Macro of dandelion seeds covered in morning dew "
+        src="06.jpg"
+      />
+      <img
+        alt="Macro of dandelion seeds covered in morning dew "
+        src="07.jpg"
+      />
+      <img
+        alt="Macro of dandelion seeds covered in morning dew "
+        src="08.jpg"
+      />
+      <img
+        alt="Macro of dandelion seeds covered in morning dew "
+        src="09.jpg"
+      />
+      <img
+        alt="Macro of dandelion seeds covered in morning dew "
+        src="10.jpg"
+      />
+      <img
+        alt="Macro of dandelion seeds covered in morning dew "
+        src="01.jpg"
+      />
+    </div>
+    <button
+      class="carousel__arrow"
+    >
+      Prev
+    </button>
+    <button
+      class="carousel__arrow"
+    >
+      Next
+    </button>
+    <div
+      class="carousel__control"
+    >
+      <input
+        checked=""
+        class="carousel__button"
+        name="control"
+        type="radio"
+      />
+      <input
+        class="carousel__button"
+        name="control"
+        type="radio"
+      />
+      <input
+        class="carousel__button"
+        name="control"
+        type="radio"
+      />
+      <input
+        class="carousel__button"
+        name="control"
+        type="radio"
+      />
+      <input
+        class="carousel__button"
+        name="control"
+        type="radio"
+      />
+      <input
+        class="carousel__button"
+        name="control"
+        type="radio"
+      />
+      <input
+        class="carousel__button"
+        name="control"
+        type="radio"
+      />
+      <input
+        class="carousel__button"
+        name="control"
+        type="radio"
+      />
+      <input
+        class="carousel__button"
+        name="control"
+        type="radio"
+      />
+      <input
+        class="carousel__button"
+        name="control"
+        type="radio"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,41 @@
+.carousel {
+  height: 770px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel__track {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  left: -100%;
+
+  &.animate {
+    transition: left .3s;
+  }
+
+  img {
+    max-width: 1200px;
+  }
+}
+
+.carousel__arrow {
+  position: relative;
+  z-index: 10;
+}
+
+.carousel__control {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+.carousel__button {
+  cursor: pointer;
+}

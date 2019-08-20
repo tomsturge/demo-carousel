@@ -1,11 +1,13 @@
 import React from 'react';
+
 import './App.scss';
+import Gallery from './components/Gallery';
 
 const App: React.FunctionComponent = () => (
   <div className="App">
-    <div>Gallery component</div>
-    <div>Gallery component</div>
-    <div>Gallery component</div>
+    <Gallery />
+    <Gallery />
+    <Gallery />    
   </div>
 );
 
