@@ -5,14 +5,395 @@ exports[`App should display the content 1`] = `
   <div
     class="App"
   >
-    <div>
-      Gallery component
+    <div
+      class="gallery"
+    >
+      <div
+        class="gallery-track"
+        data-testid="track"
+        style="left: -0%;"
+      >
+        <img
+          alt="Image 1"
+          src="01.jpg"
+        />
+        <img
+          alt="Image 2"
+          src="02.jpg"
+        />
+        <img
+          alt="Image 3"
+          src="03.jpg"
+        />
+        <img
+          alt="Image 4"
+          src="04.jpg"
+        />
+        <img
+          alt="Image 5"
+          src="05.jpg"
+        />
+        <img
+          alt="Image 6"
+          src="06.jpg"
+        />
+        <img
+          alt="Image 7"
+          src="07.jpg"
+        />
+        <img
+          alt="Image 8"
+          src="08.jpg"
+        />
+        <img
+          alt="Image 9"
+          src="09.jpg"
+        />
+        <img
+          alt="Image 10"
+          src="10.jpg"
+        />
+      </div>
+      <button
+        class="gallery-arrow gallery-leftarrow"
+        data-testid="prev-button"
+      >
+        <svg
+          height="100%"
+          viewBox="0 0 32 32"
+          width="100%"
+        >
+          <path
+            d="M16.3 21.5L11 16l5.3-5.5"
+            fill="none"
+            fill-rule="evenodd"
+            stroke="currentColor"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+      <button
+        class="gallery-arrow gallery-rightarrow"
+        data-testid="next-button"
+      >
+        <svg
+          height="100%"
+          viewBox="0 0 32 32"
+          width="100%"
+        >
+          <path
+            d="M16 21.5l5.3-5.5-5.3-5.5"
+            fill="none"
+            fill-rule="evenodd"
+            stroke="currentColor"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+      <div
+        class="gallery-control"
+      >
+        <span
+          class="gallery-button active"
+          data-testid="button-0"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-1"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-2"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-3"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-4"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-5"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-6"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-7"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-8"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-9"
+        />
+      </div>
     </div>
-    <div>
-      Gallery component
+    <div
+      class="gallery"
+    >
+      <div
+        class="gallery-track"
+        data-testid="track"
+        style="left: -0%;"
+      >
+        <img
+          alt="Image 1"
+          src="01.jpg"
+        />
+        <img
+          alt="Image 2"
+          src="02.jpg"
+        />
+        <img
+          alt="Image 3"
+          src="03.jpg"
+        />
+        <img
+          alt="Image 4"
+          src="04.jpg"
+        />
+        <img
+          alt="Image 5"
+          src="05.jpg"
+        />
+        <img
+          alt="Image 6"
+          src="06.jpg"
+        />
+        <img
+          alt="Image 7"
+          src="07.jpg"
+        />
+        <img
+          alt="Image 8"
+          src="08.jpg"
+        />
+        <img
+          alt="Image 9"
+          src="09.jpg"
+        />
+        <img
+          alt="Image 10"
+          src="10.jpg"
+        />
+      </div>
+      <button
+        class="gallery-arrow gallery-leftarrow"
+        data-testid="prev-button"
+      >
+        <svg
+          height="100%"
+          viewBox="0 0 32 32"
+          width="100%"
+        >
+          <path
+            d="M16.3 21.5L11 16l5.3-5.5"
+            fill="none"
+            fill-rule="evenodd"
+            stroke="currentColor"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+      <button
+        class="gallery-arrow gallery-rightarrow"
+        data-testid="next-button"
+      >
+        <svg
+          height="100%"
+          viewBox="0 0 32 32"
+          width="100%"
+        >
+          <path
+            d="M16 21.5l5.3-5.5-5.3-5.5"
+            fill="none"
+            fill-rule="evenodd"
+            stroke="currentColor"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+      <div
+        class="gallery-control"
+      >
+        <span
+          class="gallery-button active"
+          data-testid="button-0"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-1"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-2"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-3"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-4"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-5"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-6"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-7"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-8"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-9"
+        />
+      </div>
     </div>
-    <div>
-      Gallery component
+    <div
+      class="gallery"
+    >
+      <div
+        class="gallery-track"
+        data-testid="track"
+        style="left: -0%;"
+      >
+        <img
+          alt="Image 1"
+          src="01.jpg"
+        />
+        <img
+          alt="Image 2"
+          src="02.jpg"
+        />
+        <img
+          alt="Image 3"
+          src="03.jpg"
+        />
+        <img
+          alt="Image 4"
+          src="04.jpg"
+        />
+        <img
+          alt="Image 5"
+          src="05.jpg"
+        />
+        <img
+          alt="Image 6"
+          src="06.jpg"
+        />
+        <img
+          alt="Image 7"
+          src="07.jpg"
+        />
+        <img
+          alt="Image 8"
+          src="08.jpg"
+        />
+        <img
+          alt="Image 9"
+          src="09.jpg"
+        />
+        <img
+          alt="Image 10"
+          src="10.jpg"
+        />
+      </div>
+      <button
+        class="gallery-arrow gallery-leftarrow"
+        data-testid="prev-button"
+      >
+        <svg
+          height="100%"
+          viewBox="0 0 32 32"
+          width="100%"
+        >
+          <path
+            d="M16.3 21.5L11 16l5.3-5.5"
+            fill="none"
+            fill-rule="evenodd"
+            stroke="currentColor"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+      <button
+        class="gallery-arrow gallery-rightarrow"
+        data-testid="next-button"
+      >
+        <svg
+          height="100%"
+          viewBox="0 0 32 32"
+          width="100%"
+        >
+          <path
+            d="M16 21.5l5.3-5.5-5.3-5.5"
+            fill="none"
+            fill-rule="evenodd"
+            stroke="currentColor"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+      <div
+        class="gallery-control"
+      >
+        <span
+          class="gallery-button active"
+          data-testid="button-0"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-1"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-2"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-3"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-4"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-5"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-6"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-7"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-8"
+        />
+        <span
+          class="gallery-button false"
+          data-testid="button-9"
+        />
+      </div>
     </div>
   </div>
 </DocumentFragment>

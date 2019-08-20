@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { render, cleanup } from '@testing-library/react';
+import { cleanup } from '@testing-library/react';
+import { renderWithRedux } from '../utils/testing';
 
 import App from '../App';
 
@@ -7,7 +8,7 @@ afterEach(cleanup);
 
 describe('App', () => {
   it('should display the content', () => {
-    const { asFragment } = render(<App />);
+    const { asFragment } = renderWithRedux(<App />);
     expect(asFragment()).toMatchSnapshot();
   });
 });

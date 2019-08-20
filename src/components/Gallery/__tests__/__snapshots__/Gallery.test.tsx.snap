@@ -3,124 +3,132 @@
 exports[`Gallery should display the content 1`] = `
 <DocumentFragment>
   <div
-    class="carousel"
+    class="gallery"
   >
     <div
-      class="carousel__track animate"
-      style="left: -100%;"
+      class="gallery-track"
+      data-testid="track"
+      style="left: -0%;"
     >
       <img
-        alt="Macro of dandelion seeds covered in morning dew "
-        src="10.jpg"
-      />
-      <img
-        alt="Macro of dandelion seeds covered in morning dew "
+        alt="Image 1"
         src="01.jpg"
       />
       <img
-        alt="Ground level shot of a misty forest looking up at the milky yellow sky"
+        alt="Image 2"
         src="02.jpg"
       />
       <img
-        alt="Macro of dandelion seeds covered in morning dew "
+        alt="Image 3"
         src="03.jpg"
       />
       <img
-        alt="Macro of dandelion seeds covered in morning dew "
+        alt="Image 4"
         src="04.jpg"
       />
       <img
-        alt="Macro of dandelion seeds covered in morning dew "
+        alt="Image 5"
         src="05.jpg"
       />
       <img
-        alt="Macro of dandelion seeds covered in morning dew "
+        alt="Image 6"
         src="06.jpg"
       />
       <img
-        alt="Macro of dandelion seeds covered in morning dew "
+        alt="Image 7"
         src="07.jpg"
       />
       <img
-        alt="Macro of dandelion seeds covered in morning dew "
+        alt="Image 8"
         src="08.jpg"
       />
       <img
-        alt="Macro of dandelion seeds covered in morning dew "
+        alt="Image 9"
         src="09.jpg"
       />
       <img
-        alt="Macro of dandelion seeds covered in morning dew "
+        alt="Image 10"
         src="10.jpg"
-      />
-      <img
-        alt="Macro of dandelion seeds covered in morning dew "
-        src="01.jpg"
       />
     </div>
     <button
-      class="carousel__arrow"
+      class="gallery-arrow gallery-leftarrow"
+      data-testid="prev-button"
     >
-      Prev
+      <svg
+        height="100%"
+        viewBox="0 0 32 32"
+        width="100%"
+      >
+        <path
+          d="M16.3 21.5L11 16l5.3-5.5"
+          fill="none"
+          fill-rule="evenodd"
+          stroke="currentColor"
+          stroke-linecap="round"
+        />
+      </svg>
     </button>
     <button
-      class="carousel__arrow"
+      class="gallery-arrow gallery-rightarrow"
+      data-testid="next-button"
     >
-      Next
+      <svg
+        height="100%"
+        viewBox="0 0 32 32"
+        width="100%"
+      >
+        <path
+          d="M16 21.5l5.3-5.5-5.3-5.5"
+          fill="none"
+          fill-rule="evenodd"
+          stroke="currentColor"
+          stroke-linecap="round"
+        />
+      </svg>
     </button>
     <div
-      class="carousel__control"
+      class="gallery-control"
     >
-      <input
-        checked=""
-        class="carousel__button"
-        name="control"
-        type="radio"
+      <span
+        class="gallery-button active"
+        data-testid="button-0"
       />
-      <input
-        class="carousel__button"
-        name="control"
-        type="radio"
+      <span
+        class="gallery-button false"
+        data-testid="button-1"
       />
-      <input
-        class="carousel__button"
-        name="control"
-        type="radio"
+      <span
+        class="gallery-button false"
+        data-testid="button-2"
       />
-      <input
-        class="carousel__button"
-        name="control"
-        type="radio"
+      <span
+        class="gallery-button false"
+        data-testid="button-3"
       />
-      <input
-        class="carousel__button"
-        name="control"
-        type="radio"
+      <span
+        class="gallery-button false"
+        data-testid="button-4"
       />
-      <input
-        class="carousel__button"
-        name="control"
-        type="radio"
+      <span
+        class="gallery-button false"
+        data-testid="button-5"
       />
-      <input
-        class="carousel__button"
-        name="control"
-        type="radio"
+      <span
+        class="gallery-button false"
+        data-testid="button-6"
       />
-      <input
-        class="carousel__button"
-        name="control"
-        type="radio"
+      <span
+        class="gallery-button false"
+        data-testid="button-7"
       />
-      <input
-        class="carousel__button"
-        name="control"
-        type="radio"
+      <span
+        class="gallery-button false"
+        data-testid="button-8"
       />
-      <input
-        class="carousel__button"
-        name="control"
-        type="radio"
+      <span
+        class="gallery-button false"
+        data-testid="button-9"
       />
     </div>
   </div>

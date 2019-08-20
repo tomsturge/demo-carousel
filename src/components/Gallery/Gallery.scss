@@ -1,4 +1,4 @@
-.carousel {
+.gallery {
   height: 770px;
   width: 100%;
   position: relative;
@@ -6,36 +6,79 @@
   margin: 0 auto;
 }
 
-.carousel__track {
+.gallery-track {
   margin: 0;
   padding: 0;
   list-style: none;
   width: 100%;
   display: flex;
   position: absolute;
-  left: -100%;
-
-  &.animate {
-    transition: left .3s;
-  }
+  left: 0%;
+  transition: left .3s;
 
   img {
     max-width: 1200px;
   }
 }
 
-.carousel__arrow {
-  position: relative;
+.gallery-arrow {
+  background-color: rgba(255, 255, 255, .5);
+  border: 0;
+  position: absolute;
   z-index: 10;
+  opacity: 0;
+  transition: opacity .3s;
+  top: 0;
+  height: 100%;
+  width: 20%;
+  cursor: pointer;
+  padding: 0;
+  color: white;
+
+  &:hover {
+    opacity: 1;
+  }
 }
 
-.carousel__control {
+.gallery-leftarrow {
+  left: 0;
+}
+
+.gallery-rightarrow {
+  right: 0;
+}
+
+.gallery-control {
   position: absolute;
-  bottom: 1em;
+  bottom: 1.5rem;
   width: 100%;
   text-align: center;
 }
 
-.carousel__button {
+.gallery-button {
   cursor: pointer;
+  appearance: none;
+  background-color: grey;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  box-shadow: 0;
+  transition: all .3s;
+
+  &.active,
+  &:hover {
+    background-color: white;
+    box-shadow: 0 0 0 3px grey;
+  }
+
+  &:active, 
+  &:focus {
+    outline: 0; 
+    outline-style:none; 
+    outline-width:0; 
+  }
+
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
 }

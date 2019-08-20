@@ -7,7 +7,7 @@ const App: React.FunctionComponent = () => (
   <div className="App">
     <Gallery />
     <Gallery />
-    <Gallery />    
+    <Gallery />
   </div>
 );
 
