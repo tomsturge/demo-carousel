@@ -6,3 +6,4 @@ package-lock.json
 .vscode
 .directory
 src/react-app-env.d.ts
+yarn-error.log
